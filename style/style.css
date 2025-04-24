@@ -52,6 +52,7 @@ p{
 .container-taskgroup{
     margin-left: 36px;
     padding-top: 20px;
+    min-width: 600px;
 }
 
 .container-task{
