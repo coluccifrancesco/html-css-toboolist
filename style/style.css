@@ -23,7 +23,7 @@ h1{
 /* main */
 
 .margin-div1{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 3px;
 }
 
@@ -34,15 +34,26 @@ h1{
 
 .margin-div2{
     margin-bottom: 20px;
-
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 p{
     font-weight: 450;
+    display: inline;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.container-taskgroup{
+    margin-left: 36px;
+    padding-top: 20px;
 }
 
 .container-task{
-    display: flex;
+    display: inline-block;
+    max-width: 400px;
+    margin-top: 10px;
 }
 
 
@@ -91,18 +102,116 @@ p{
     font-weight: 550;
 }
 
-.check-btn{}
+.check-btn{
+    height: 24px;
+    width: 24px;
+    background-color: #ffffff;
+    border-color: #81CCB9;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    color: #81CCB9;
+    cursor: pointer;
+}
 
-.cross-btn{}
+.cross-btn{
+    height: 24px;
+    width: 24px;
+    background-color: #ffffff;
+    border-color: #EE5D53;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    color: #EE5D53;
+    cursor: pointer;
+}
 
-.edit-btn{}
+.edit-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color:  #45ABE9;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8;
+    margin-bottom: 8px;
+}
 
-.q1-btn{}
+.q1-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #9B72E5;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8;
+    margin-bottom: 8px;
+}
 
-.recr-btn{}
+.recr-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #63C0A9;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8;
+    margin-bottom: 8px;
+}
 
-.mbl-btn{}
+.mbl-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #F29D33;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8;
+    margin-bottom: 8px;
+}
 
-.web-btn{}
+.web-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #D863A0;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8;
+    margin-bottom: 8px;
+}
 
-.sls-btn{}
+.sls-btn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: rgb(176, 201, 37);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: 8;
+    margin-bottom: 8px;
+}
