@@ -37,11 +37,14 @@ h1{
 
 }
 
-/* tasks */
-
-.container-div{
-    display: block;
+p{
+    font-weight: 450;
 }
+
+.container-task{
+    display: flex;
+}
+
 
 /* Colori */
 
